@@ -24,12 +24,11 @@ sudo apt-get install -y docker-ce
 - clone 專案: `git clone https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/`
 - pwn1
     - 建立 pwn1_i images: `docker build -t pwn1_i .`
-    - 開啟 pwn1_c container: `docker run -it --name pwn1_c pwn1_i`
+    - 開啟 pwn1_c container: `docker run -d -p $(主機 port):$(docker port) --name pwn1_c pwn1_i`
 - pwn2
     - 建立 pwn2_i images: `docker build -t pwn2_i .`
-    - 開啟 pwn2_c container: `docker run -it --name pwn2_c pwn2_i`
-- 重新執行 container: `docker start -i <container_name>`
-- `nc localhost:<port>`
+    - 開啟 pwn2_c container: `docker run -d -p $(主機 port):$(docker port) --name pwn2_c pwn2_i`
+- 在另一台電腦上: `nc $(ip) $(port>)`
 
 ## PWN Requirement
 - python-pip3
