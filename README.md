@@ -14,12 +14,12 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 sudo apt-get install -y docker-ce
 ```
-:::info
-### 執行 Docker 前面不用加 sudo 的方法
-- 創建 docker group: `sudo groupadd docker`
-- 將 $USER(輸入自己的名子) 加入到 docker group 裡面: `sudo usermod -aG docker $USER`
-- 啟動對 group 的更改: `newgrp docker`
-:::
+
+- 執行 Docker 前面不用加 sudo 的方法
+    - 創建 docker group: `sudo groupadd docker`
+    - 將 $USER(輸入自己的名子) 加入到 docker group 裡面: `sudo usermod -aG docker $USER`
+    - 啟動對 group 的更改: `newgrp docker`
+
 - 安裝 git: `sudo apt install git`
 - clone 專案: `git clone https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/`
 - pwn1
