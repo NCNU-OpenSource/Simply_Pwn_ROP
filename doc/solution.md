@@ -51,9 +51,9 @@ ROPgadget --binary <$binary> (--only <$command>)
     - cyclic in pwntools
 
 - 利用 cyclic 去產生連續字串
-- ![](https://hackmd.io/_uploads/SJH-v2wPh.png)
+- ![image](https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/assets/77890790/74ba82a5-1eb6-4da1-ab45-98afffa8ff10)
 - 利用 gdb 去找長度
-- ![](https://hackmd.io/_uploads/HJ94DnDDn.png)
+- ![image](https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/assets/77890790/2882bab9-49b7-46af-8239-068e8003e749)
 - 剛好 6c 就在 l
 ```
 cyclic_find('laaa')
@@ -67,8 +67,8 @@ cyclic_find('laaa')
 
 ## Exploit
 - objdump 查看函數位址
-    - ![](https://hackmd.io/_uploads/SytQinwvh.png)
-    - ![](https://hackmd.io/_uploads/SJY4jnvwh.png)
+    - ![image](https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/assets/77890790/9072e5a1-64f7-4bc9-b465-acb4904a4210)
+    - ![image](https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/assets/77890790/a95bb480-cf34-40c2-b4a2-8e2ce461e87d)
 
 - 寫 code 攻擊
 ```python=
