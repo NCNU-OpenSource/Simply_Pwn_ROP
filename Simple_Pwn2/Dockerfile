@@ -17,6 +17,6 @@ USER ctf
 
 WORKDIR /home/ctf/1112_LSA-Simply_Pwn_ROP/Simple_Pwn2
 
-CMD ["ncat", "-vc", "./pwn", "-kl", "0.0.0.0", "8787"]
+CMD ["ncat", "-vc", "./pwn", "-kl", "0.0.0.0", "8888"]
 
 EXPOSE 8787
