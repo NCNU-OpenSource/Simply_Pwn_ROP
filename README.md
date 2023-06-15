@@ -21,11 +21,14 @@ It's final project for 1112 NCNU - LSA2 .Introduce the Buffer Overflow of ROP an
 - format: `NCNU_LSA{FLAG}`
 ## Simply_PWN2 說明
 - 與第一題差不多，但有些為的差異，你知道問題在哪嘛？
+
+## Difficulty and Future Work
+- 目前我們只針對 影響城市正常運作 作為攻擊方式，希望未來可以將 Shell Code 宮及實作完成
+- 在練習上有發現編譯後的結果可能會跟我們所學的有點不同，畢竟在系統架構上相對比較不同，所以在學習上相對有難度
+
 ## Job Assignment
+
 - `109213017 吳梓睿`
     - 負責 BOF 解說
     - 實際製作簡單題目及實作
 - 
-## Difficulty and Future Work
-- 目前我們只針對 影響城市正常運作 作為攻擊方式，希望未來可以將 Shell Code 宮及實作完成
-- 在練習上有發現編譯後的結果可能會跟我們所學的有點不同，畢竟在系統架構上相對比較不同，所以在學習上相對有難度
