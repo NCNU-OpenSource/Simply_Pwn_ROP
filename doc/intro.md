@@ -1,9 +1,10 @@
 # LSA2 Final Project 咻 ~ PWN 幾勒安餒金 ㄉㄨㄚˋ 蝦
 
-[TOC]
+
 
 ## 主題名稱由來
-<iframe width="784" height="577" src="https://www.youtube.com/embed/kJeh8wAzkQs" title="咻蹦一聲很大聲（廢片）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+![image](https://github.com/wzray07/1112_LSA-Simply_Pwn_ROP/assets/77890790/9621977b-6216-4da2-b400-bc28c516e985)
+
 
 ## What is CTF
 - Capture The Flag, CTF
