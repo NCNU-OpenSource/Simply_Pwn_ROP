@@ -45,10 +45,12 @@ sudo apt-get install -y docker-ce
 ## Difficulty and Future Work
 - 目前我們只針對 影響程式正常運作 作為攻擊方式，希望未來可以將 Shell Code 宮及實作完成
 - 在練習上有發現編譯後的結果可能會跟我們所學的有點不同，畢竟在系統架構上相對比較不同，所以在學習上相對有難度
-- 理想環境: `nc lotuxctf.com 30000`
+
 ## Job Assignment
 - `109213017 吳梓睿`
     - 負責 BOF 解說
     - 實際製作簡單題目及實作
 - `109213068 李亞軒`
     - 環境架設、文件
+## 特別感謝
+- @tommygood 幫忙緊急處理環境
