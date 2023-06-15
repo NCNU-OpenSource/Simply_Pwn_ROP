@@ -21,6 +21,8 @@ void Func(){
 }
 
 int main(){
+        setvbuf(stdin, NULL, _IONBF, 0);
+        setvbuf(stdout, NULL, _IONBF, 0);
         int x;
         Func();
         return 0;
