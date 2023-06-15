@@ -23,7 +23,7 @@ It's final project for 1112 NCNU - LSA2 .Introduce the Buffer Overflow of ROP an
 - 與第一題差不多，但有些為的差異，你知道問題在哪嘛？
 
 ## Difficulty and Future Work
-- 目前我們只針對 影響城市正常運作 作為攻擊方式，希望未來可以將 Shell Code 宮及實作完成
+- 目前我們只針對 影響程式正常運作 作為攻擊方式，未來預計會將 Shell Code 進行攻擊實作演練
 - 在練習上有發現編譯後的結果可能會跟我們所學的有點不同，畢竟在系統架構上相對比較不同，所以在學習上相對有難度
 
 ## Job Assignment
