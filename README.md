@@ -9,8 +9,8 @@ It's final project for 1112 NCNU - LSA2 .Introduce the Buffer Overflow of ROP an
 
 ## PWN Requirement
 - python-pip3
-- pwntools
-- ROPgadget
+- pwntools (pip)
+- ROPgadget (pip)
 - gdb
 - objdump
 
